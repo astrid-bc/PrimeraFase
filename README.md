@@ -9,9 +9,17 @@ carretera. El juego tiene varios niveles de dificultad y mejora con el tiempo.
 1. Clona el repositorio:
    ```
    git clone https://github.com/astrid-bc/PrimeraFase
+   ```
+   
+2. Navega a la carpeta:
+   ```
    cd PrimeraFase  
    ```
    
+3. Ejecuta el archivo:
+   ```
+   ./main.py  
+   ```
 ## Controles
 
  - Flecha Izquierda: Mover a la izquierda
