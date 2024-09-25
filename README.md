@@ -18,7 +18,7 @@ carretera. El juego tiene varios niveles de dificultad y mejora con el tiempo.
    
 3. Ejecuta el archivo:
    ```
-   ./main.py  
+   python main.py  
    ```
 ## Controles
 
