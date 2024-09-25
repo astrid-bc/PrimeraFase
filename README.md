@@ -25,5 +25,10 @@ El juego presenta un entorno gráfico simple donde los enemigos aparecen en la p
 
 1. Clona este repositorio.
 2. Asegúrate de tener Pygame instalado:
-   ```bash
+   ```
    pip install pygame
+   ```
+3.  Ejecuta el archivo
+    ```
+    main.py
+    ``` 
