@@ -29,8 +29,8 @@ carretera. El juego tiene varios niveles de dificultad y mejora con el tiempo.
 
 ## Estructura del Proyecto
 
-  ├── assets/         # Imágenes y sonidos del juego
-  ├── main.py         # Código principal del juego
-  ├── README.md       # Instrucciones y descripción del proyecto
-  └── utils.py        # Funciones adicionales
+  ├── assets/         # Imágenes y sonidos del juego <br>
+  ├── main.py         # Código principal del juego <br>
+  ├── README.md       # Instrucciones y descripción del proyecto <br>
+  └── utils.py        # Funciones adicionales <br>
   
