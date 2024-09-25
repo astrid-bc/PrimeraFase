@@ -1,36 +1,29 @@
-# Carrera de Carros
+# Juego
 
-## Descripción
-Este juego es adaptación de un juego de carreras para un único jugador. El objetivo del juego es que el jugador evite obstáculos, en este caso otros carros en la 
-carretera. El juego tiene varios niveles de dificultad y mejora con el tiempo.
-
-## Instalación
-
-1. Clona el repositorio:
-   ```
-   git clone https://github.com/astrid-bc/PrimeraFase
-   ```
-   
-2. Navega a la carpeta:
-   ```
-   cd PrimeraFase  
-   ```
-   
-3. Ejecuta el archivo:
-   ```
-   python main.py  
-   ```
-## Controles
-
- - Flecha Izquierda: Mover a la izquierda
- - Flecha Derecha: Mover a la derecha
- - Flecha Arriba: Saltar
- - Flecha Abajo: Agacharse
+Este es un juego básico desarrollado en Python utilizando la biblioteca Pygame. 
+El juego presenta un entorno gráfico simple donde los enemigos aparecen en la pantalla.
 
 ## Estructura del Proyecto
 
-  ├── assets/         # Imágenes y sonidos del juego <br>
-  ├── main.py         # Código principal del juego <br>
-  ├── README.md       # Instrucciones y descripción del proyecto <br>
-  └── utils.py        # Funciones adicionales <br>
-  
+- `main.py`: archivo principal del juego que inicia el bucle del juego y maneja eventos.
+- `settings.py`: archivo que contiene configuraciones globales para el juego, como dimensiones de la pantalla y colores.
+- `enemy.py`: clase que define el comportamiento de los enemigos en el juego.
+- `assets/`: carpeta destinada a gráficos y sonidos (actualmente vacía).
+
+## Funcionalidades
+
+- **Menú Principal**: Aún por implementar. Se puede agregar un menú con opciones para jugar, salir, etc.
+- **Enemigos**: Los enemigos se generan aleatoriamente en la pantalla.
+- **Gráficos**: Se utiliza un simple rectángulo rojo para representar a los enemigos.
+
+## Requisitos
+
+- Python 3.x
+- Pygame
+
+## Instalación
+
+1. Clona este repositorio.
+2. Asegúrate de tener Pygame instalado:
+   ```bash
+   pip install pygame
